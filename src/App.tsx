@@ -1,8 +1,10 @@
 import reactLogo from "./assets/react.svg";
+import TestPage from "./pages/TestPage";
 import viteLogo from "/vite.svg";
+
 function App() {
   return (
-    <div className="flex justify-center items-center h-dvh">
+    <div className="flex justify-center items-center h-dvh flex-col">
       <div className="w-56">
         <div className="flex items-center justify-center border border-indigo-600 w-full">
           <a
@@ -25,6 +27,7 @@ function App() {
           </a>
         </div>
       </div>
+      <TestPage />
     </div>
   );
 }

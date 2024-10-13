@@ -9,7 +9,7 @@ export default function TestPage() {
 
   return (
     // 마진 >> m, 마진 탑 >> mt, 마진 레프트 >> ml
-    <div className="flex flex-col gap-lg mt-lg">
+    <div className="mt-lg flex flex-col gap-lg">
       <Button onClick={handleClickButton} isFontChange={isFontChange}>
         클릭
       </Button>

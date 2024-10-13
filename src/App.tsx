@@ -4,18 +4,18 @@ import viteLogo from "/vite.svg";
 
 function App() {
   return (
-    <div className="flex justify-center items-center h-dvh flex-col">
+    <div className="flex h-dvh flex-col items-center justify-center">
       <div className="w-56">
-        <div className="flex items-center justify-center border border-indigo-600 w-full">
+        <div className="border-indigo-600 flex w-full items-center justify-center border">
           <a
-            className="w-1/2 flex items-center justify-center h-20"
+            className="h-20 flex w-1/2 items-center justify-center"
             href="https://vitejs.dev"
             target="_blank"
           >
             <img src={viteLogo} className="logo select-none" alt="Vite logo" />
           </a>
           <a
-            className="w-1/2 flex items-center justify-center h-20"
+            className="h-20 flex w-1/2 items-center justify-center"
             href="https://react.dev"
             target="_blank"
           >

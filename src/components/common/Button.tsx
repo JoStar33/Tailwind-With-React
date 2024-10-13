@@ -15,10 +15,11 @@ export default function Button({
   ...rest
 }: Props) {
   return (
+    // 마우스 호버시에 각 클래스에 적용된 css가 구체적으로 무엇인지 정보를 제공함.
     <button
       className={`bg-secondary ${
         isFontChange ? "text-black" : "text-primary"
-      } text-base font-semibold cursor-pointer`}
+      } cursor-pointer text-base font-semibold`}
       {...rest}
     >
       {children}

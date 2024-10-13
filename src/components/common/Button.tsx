@@ -16,8 +16,8 @@ export default function Button({
 }: Props) {
   return (
     <button
-      className={`bg-slate-500 ${
-        isFontChange ? "text-black" : "text-red-600"
+      className={`bg-secondary ${
+        isFontChange ? "text-black" : "text-primary"
       } text-base font-semibold cursor-pointer`}
       {...rest}
     >

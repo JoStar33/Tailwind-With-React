@@ -1,5 +1,5 @@
 import reactLogo from './assets/react.svg';
-import CardRenderPage from './pages/CardRenderPage';
+import StrictButtonPagePage from './pages/StrictButtonPage';
 import TestPage from './pages/TestPage';
 import viteLogo from '/vite.svg';
 
@@ -17,7 +17,7 @@ function App() {
         </div>
       </div>
       <TestPage />
-      <CardRenderPage />
+      <StrictButtonPagePage />
     </div>
   );
 }

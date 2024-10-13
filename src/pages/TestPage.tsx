@@ -1,5 +1,5 @@
-import React from "react";
-import Button from "../components/common/Button";
+import React from 'react';
+import Button from '../components/common/Button';
 
 export default function TestPage() {
   const [isFontChange, setIsFontChange] = React.useState(true);

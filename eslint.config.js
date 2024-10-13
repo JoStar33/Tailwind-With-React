@@ -20,6 +20,12 @@ export default tseslint.config(
       'react-refresh': reactRefresh,
       tailwind: tailwind,
     },
+    settings: {
+      tailwindcss: {
+        // These are the default values but feel free to customize
+        callees: ['classnames', 'clsx', 'ctl', 'cva'],
+      },
+    },
     rules: {
       ...reactHooks.configs.recommended.rules,
       'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],

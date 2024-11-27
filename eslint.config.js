@@ -36,6 +36,7 @@ export default tseslint.config(
       '@typescript-eslint/no-empty-interface': 'off',
       '@typescript-eslint/ban-types': 'off',
       '@typescript-eslint/no-var-requires': 'off',
+      'tailwindcss/classnames-order': 'off',
       'no-explicit-any': 'off',
     },
   },

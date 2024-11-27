@@ -12,11 +12,6 @@ export default {
       buttongrey: '#383838',
       blue: '#4578ef',
     },
-    spacing: {
-      sm: '4px',
-      md: '8px',
-      lg: '12px',
-    },
     screens: {
       sm: '640px',
       md: '768px',

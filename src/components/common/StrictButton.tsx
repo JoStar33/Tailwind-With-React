@@ -30,7 +30,7 @@ const ButtonVariants = cva(
         default: '',
         md: 'h-[2.375rem] w-[6.875rem] rounded-md text-[1rem]',
         lg: 'h-[7.5rem] w-[21.875rem] rounded-3xl text-[3rem]',
-        wlg: 'h-[5.25rem] w-[24rem] text-[2rem]',
+        wlg: 'h-[5.25rem] w-96 text-[2rem]',
       },
     },
     defaultVariants: {
